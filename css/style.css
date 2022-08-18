@@ -4,13 +4,16 @@
     --yellow:#f9ca24;
 }
 
+h1 {
+    text-align: center;
+}
+
 *{
     font-family: 'Nunito', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -96,7 +99,7 @@ header{
 
 header .user img{
     height:21rem;
-    width:21rem;
+    width:18rem;
     border-radius: 50%;
     object-fit: fill;
     margin-bottom: 1rem;
@@ -337,14 +340,10 @@ header .navbar ul li a:hover{
     margin:1rem 0;
     background:#3333;
     color:#fff;
-    text-transform: capitalize;
     font-size: 1.7rem;
     width:100%;
 }
 
-.contact .row form .box::placeholder{
-    text-transform: capitalize;
-}
 
 .contact .row form .message{
     height: 15rem;
@@ -352,7 +351,6 @@ header .navbar ul li a:hover{
 }
 
 .contact .row .content .title{
-    text-transform: capitalize;
     color:#fff;
     font-size: 3rem;
     padding-bottom: 2rem;
